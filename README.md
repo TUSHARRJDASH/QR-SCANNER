@@ -33,9 +33,8 @@ QR-Scanner/
 ├── index.html # Main HTML file
 ├── style.css # CSS styles
 ├── images/ # QR code image and favicon
-└── screenshot.png # Optional project preview image
 
-yaml
+
 Copy code
 
 ---
@@ -53,15 +52,8 @@ Replace the placeholder image in index.html:
 
 html
 Copy code
-<img src="images/image-qr-code.png" alt="QR Code">
 with your own QR code image.
 
-🎨 Customization
-Change background colors, fonts, or card width in style.css.
-
-Edit the countdown text (“3 days left”) inside the <div class="daysleft">.
-
-Update the header content to match your branding or project details.
 
 🌐 Deployment
 You can host this project easily using GitHub Pages:
